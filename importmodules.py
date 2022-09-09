@@ -1,0 +1,11 @@
+import sklearn as sk;
+import sys;
+from sklearn.ensemble import RandomForestClassifier;
+print(sk.__version__);
+print(sys.path);
+print(RandomForestClassifier());
+import files1;
+print(files1.a);
+from files1 import a;
+print(a);
+files1.printjoke("sachin");

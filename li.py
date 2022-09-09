@@ -1,0 +1,17 @@
+lb=[1,2,3,"sachin"];
+lb.append("sachin");
+print(lb);
+lb.reverse();
+print(lb);
+lb.insert(1,"sachin");
+print(lb);
+lb.remove("sachin");
+print(lb);
+lb.pop();
+print(lb);
+lb[2]="sachiN";
+print(lb);
+l=(1,2,3);
+print(l);
+l[0]=3;
+print(l);
